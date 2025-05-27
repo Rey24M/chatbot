@@ -12,4 +12,5 @@ Other features I wanted to add but didn't have the time to:
 * clearing the textbox after pressing enter
 * a more usefull side bar, summarising coversation topics
 * running the model locally without an api token
+* counter to improve contest awareness
   

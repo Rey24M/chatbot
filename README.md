@@ -1,9 +1,9 @@
 # ACM Gen AI induction task-1
 My attempt at making a simple chatbot using huggingface api and streamlit(for UI) <br>
 Supporting files on my system: 
-*.env file
-*hugging face token
-*run command- 
+* .env file
+* hugging face token
+* run command- 
 ```
 streamlit run filename.py
 ```

@@ -6,7 +6,7 @@ from datetime import datetime
 # client stuff
 MODEL = "HuggingFaceH4/zephyr-7b-beta"
 #API line
-HF_TOKEN = "API id here"  
+HF_TOKEN = "API token here"  
 client = InferenceClient(model=MODEL, token=HF_TOKEN)
 
 if "input_counter" not in st.session_state:

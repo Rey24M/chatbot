@@ -1,4 +1,5 @@
-# ACM Gen AI induction task-1
+# ACM Gen AI induction 
+## Task-1
 My attempt at making a simple chatbot using huggingface api and streamlit(for UI) <br>
 Supporting files on my system: 
 * .env file
@@ -13,4 +14,8 @@ Other features I wanted to add but didn't have the time to:
 * a more usefull side bar, summarising coversation topics
 * running the model locally without an api token
 * counter to improve context awareness
+<br>
+## Task-2
+A CV model using FashionMNIST based on TensorFlow framework <br>
+
   

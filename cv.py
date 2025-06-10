@@ -12,7 +12,7 @@ fashion_mnist = tf.keras.datasets.fashion_mnist
 train_images = train_images / 255.0
 test_images = test_images / 255.0
 
-# Add channel dimension for CNN
+# Channel dimension for CNN
 train_images = train_images[..., np.newaxis]
 test_images = test_images[..., np.newaxis]
 

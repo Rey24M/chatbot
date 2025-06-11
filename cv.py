@@ -4,15 +4,15 @@ import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay
 
-# Load dataset
+
 fashion_mnist = tf.keras.datasets.fashion_mnist
 (train_images, train_labels), (test_images, test_labels) = fashion_mnist.load_data()
 
-# Normalize pixel values
+# Normalize 
 train_images = train_images / 255.0
 test_images = test_images / 255.0
 
-# Channel dimension for CNN
+
 train_images = train_images[..., np.newaxis]
 test_images = test_images[..., np.newaxis]
 
@@ -49,8 +49,8 @@ disp = ConfusionMatrixDisplay(confusion_matrix=cm, display_labels=[
 disp.plot(xticks_rotation='vertical')
 plt.show()
 
-# Save model
+# Save 
 model.save('fashion_mnist_cnn.h5')
 
-# Load model (later, without retraining)
+
 loaded_model = tf.keras.models.load_model('fashion_mnist_cnn.h5')
